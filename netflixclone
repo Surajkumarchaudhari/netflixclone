@@ -1,0 +1,337 @@
+
+<----this is my first into html file---->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>https://www.netflixclone.com</title>
+    <link rel="stylesheet" href="projrct2.css">
+</head>
+
+<body>
+    <div class="container">
+        <img class="coverphoto" src="netflix01.jpg" alt="_self">
+        <div class="container2">
+            <h1 class="infor">Unlimited movies, TV</h1>
+            <h1 class="infor01">shows and more</h1>
+            <p class="inforr">Starts at ₹149. Cancel at any time.</p>
+            <p class="lastinfo">Ready to watch? Enter your email to create or restart your membership.</p>
+            <form id="">
+            <input class="email" type="text" placeholder="Email address">
+            <button class="button">
+                <a href="netflixc.html" >Get started ></a></button>
+        </form>
+        <select name="select" id="selection">
+            <option value="select">English</option>
+            <option value="select">Hindi</option>
+            <option value="select">Language</option>
+        </select>
+        <button class="signin" > 
+            <a href="netflixsigninpage.html">Sign In</a></button>
+            <img class="logo" src="netflixlogo.png" alt="">
+        </div>
+    
+    </div>
+</body>
+
+</html>
+//and this is the css file//
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    height: 100%;
+    width: 222vh;
+    position: relative;
+}
+.coverphoto{
+    width: 220vh;
+    height: 105vh;
+}
+/* .container02{
+    height: 50vh;
+    width: 70vh;
+} */
+.infor{
+    position: absolute;
+    top: 32%;
+    left: 25%;
+    color: rgb(245, 245, 245);
+    font-size:48.5px;
+    font-weight: 1000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.infor01{
+    position: absolute;
+    top: 40.05%;
+    left: 27%;
+    color: rgb(245, 245, 245);
+    font-size:47px;
+    font-weight: 1000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inforr{
+    position: absolute;
+    top: 50.9%;
+    left: 28%;
+    color: rgb(245, 245, 245);
+    font-size:22px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.lastinfo{
+    position: absolute;
+    top: 58.9%;
+    left: 25.8%;
+    color: rgb(245, 245, 245);
+    font-size:15px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.email{
+    position: absolute;
+    top: 65.9%;
+    left: 25.9%;
+    padding-left: 2vh;
+    padding-right: 10vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background-color: rgba(0, 0, 0, 0.859);
+    color: antiquewhite;
+    font-size: larger;
+    font-weight: bolder;
+    border: none;
+}
+.email:active{
+    background-color:black;
+}
+.button {
+    position: absolute;
+    top: 65.9%;
+    left: 48.9%;
+    padding-right: 3.5vh;
+    padding-left: 3.8vh;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    background-color:red;
+    border: none;
+    font-weight: bolder;
+    color: aliceblue;
+    cursor: pointer;
+}
+.a{
+    color: aliceblue;
+    font-weight:bolder ;
+}
+.button:hover{
+    background-color: rgba(184, 0, 0, 0.712);
+}
+.button a{
+    color: rgb(254, 254, 254);
+text-decoration: none;
+font-size: larger;
+}
+
+#selection{
+    position: absolute;
+    top: 2.9%;
+    left: 70.4%;
+    padding-right: 2vh;
+    padding-left: 3vh;
+    padding-top: 1.5vh;
+    padding-bottom: 1.4vh;
+    background-color:rgba(0, 0, 0, 0.616);
+    color: antiquewhite;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.signin{
+    position: absolute;
+    top: 2.9%;
+    left: 78.9%;
+    padding-right: 5vh;
+    padding-left: 4vh;
+    padding-top: 1.8vh;
+    padding-bottom: 1.7vh;
+    background-color:rgba(255, 0, 0, 0.826);
+    color: antiquewhite;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+    
+}
+.signin:hover{
+    background-color: rgba(255, 57, 57, 0.77);
+}
+.signin a{
+    color: rgb(254, 254, 254);
+text-decoration: none;
+}
+.logo{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 15vh;
+    mix-blend-mode:multiply;
+    color: red;
+
+}
+<---------this is my login file html---------->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>netfilx signin page</title>
+    <link rel="stylesheet" href="netflixsigninpage.css">
+</head>
+
+<body>
+    <div id="container">
+        <img class="img" src="netflix01.jpg" alt="">
+        <div id="main">
+            <h1>Sign In</h1>
+            <br>
+            <br>
+            <form>
+                <input class="email" type="text" placeholder="Email or mobile number">
+                <br>
+                <br>
+                <input  class="email"   type="text" placeholder="Password">
+                <br>
+                <br>
+                <button class="button">
+                    <a href="netflixc.html" style="color: aliceblue;">Signin </a></button>
+                 <br>
+                <br>
+                <p> OR</p>
+                <br>
+                <br>
+                <input class="lastbutton" type="button" value="Use a sign-in code " name="sign in ">
+                <br>
+                <br>
+                <br>
+                <p class="forget">Forget Password?</p>
+                <br>
+                <input type="checkbox" >Remember me
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
+
+// this is my css file //
+
+*{
+    padding: 0;
+    margin: 0;
+}
+#container{
+    box-sizing: border-box;
+    height: 100%;
+    position: relative;
+}
+.img{
+    height: 100vh;
+    width: 220vh;
+    box-sizing: border-box;
+}
+.main-section{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+}
+
+#main{
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    height: 65vh;
+    width: 20vh;
+    padding-left:5vh;
+    padding-bottom:12vh;
+    padding-top:5vh;
+    padding-right:40vh;
+    background-color:rgba(0, 0, 0, 0.442);
+    color: aliceblue;
+    align-items: center;
+}
+.email{
+    background-color: rgba(0, 0, 0, 0.804);
+    color: aliceblue;
+    border: none;
+    padding-left: 2vh;
+    padding-right: 10vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    box-sizing: border-box;
+    font-size: larger;
+}
+.button{
+    background-color: red;
+    color: aliceblue;
+    padding-left: 17.9vh;
+    padding-right: 18.9vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border: none;
+    border-radius: 10px;
+    font-size: larger;
+    cursor: pointer;
+}
+.button:hover{
+    background-color:rgba(255, 0, 0, 0.826);;
+}
+.button a{
+    color: rgb(254, 254, 254);
+text-decoration: none;
+font-size: larger;
+}
+.lastbutton{
+    background-color: rgb(80, 77, 77);
+    color: aliceblue;
+    padding-left: 12.9vh;
+    padding-right: 8.9vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border: none;
+    border-radius: 10px;
+    font-size: larger;
+    cursor: pointer;
+}
+.lastbutton:hover{
+    background-color: rgb(113, 110, 110);
+}
+.forget{
+    font-size: larger;
+    margin-left: 3vh;
+}
+
+<========= this is my last page html(main)===========>.
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Error 404</p>
+</body>
+
+</html>
